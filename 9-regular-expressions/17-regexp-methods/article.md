@@ -6,7 +6,7 @@ In this article we'll cover various methods that work with regexps in-depth.
 
 The method `str.match(regexp)` finds matches for `regexp` in the string `str`.
 
-It has 3 modes:
+3가지 모드:
 
 1. If the `regexp` doesn't have flag `pattern:g`, then it returns the first match as an array with capturing groups and properties `index` (position of the match), `input` (input string, equals `str`):
 
